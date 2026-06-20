@@ -14,7 +14,7 @@ export default function FloatingContactButtons({
   const whatsappLink = `https://wa.me/2${phoneNumber}?text=${encodeURIComponent(
     whatsappMessage
   )}`;
-
+// 
   const callLink = `tel:+2${phoneNumber}`;
 
   return (
